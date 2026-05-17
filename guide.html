@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Services | Excellence en Construction & Rénovation</title>
+    <link rel="stylesheet" href="guide.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">LITA-<span>SARL</span></div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#propos">À Propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#rdv">Rendez-vous</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Accueil -->
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Expertise Totale pour votre Habitat</h1>
+            <p>Climatisation, Plomberie, Construction et Décoration d'Intérieur.</p>
+            <a href="#rdv" class="btn">Demander un Devis</a>
+        </div>
+    </header>
+
+    <!-- À Propos -->
+    <section id="propos" class="section">
+        <div class="container">
+            <h2 class="section-title">À Propos de Nous</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Avec plus de 10 ans d'expérience, nous transformons vos idées en réalité. Que ce soit pour une réparation d'urgence ou une construction complète, notre équipe d'experts garantit un travail soigné et durable.</p>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1503387762-592dee58c160?auto=format&fit=crop&w=600&q=80" alt="Construction de maison">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="guide/Clim.JPG" alt="Climatisation">
+                    <h3>Réparation Clim</h3>
+                    <p>Maintenance et dépannage rapide de tous types de systèmes de climatisation.</p>
+                </div>
+                <div class="service-card">
+                    <img src="guide/Plomberie.JPG" alt="Plomberie">
+                    <h3>Plomberie</h3>
+                    <p>Installation, détection de fuites et rénovation de tuyauterie.</p>
+                </div>
+                <div class="service-card">
+                    <img src="guide/construct.JPG" alt="Construction">
+                    <h3>Construction</h3>
+                    <p>Construction de maisons individuelles de A à Z avec des matériaux de qualité.</p>
+                </div>
+                <div class="service-card">
+                    <img src="guide/deco.JPG" alt="Décoration">
+                    <h3>Décoration</h3>
+                    <p>Aménagement d'intérieur et design pour un espace qui vous ressemble.</p>
+                </div>
+                <div class="service-card">
+                    <img src="guide/deco1.JPG" alt="Décoration d'intérieur">
+                    <h3>Deco d'interieur</h3>
+                    <p>Installation, détection de fuites et rénovation de tuyauterie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demande de RDV -->
+    <section id="rdv" class="section">
+        <div class="container">
+            <h2 class="section-title">Prendre Rendez-vous</h2>
+            <form id="rdv-form" class="form-container">
+                <div class="form-group">
+                    <input type="text" placeholder="Votre Nom" required>
+                    <input type="email" placeholder="Votre Email" required>
+                </div>
+                <select required>
+                    <option value="">Choisir un service</option>
+                    <option value="clim">Climatisation</option>
+                    <option value="plomberie">Plomberie</option>
+                    <option value="construction">Construction</option>
+                    <option value="decoration">Décoration</option>
+                </select>
+                <textarea rows="5" placeholder="Détails de votre projet"></textarea>
+                <button type="submit" class="btn">Envoyer la demande</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Contactez-nous</h3>
+                <p>Email:litasarl@gmail.com</p>
+                <p>Tél: +243 810 000 000</p>
+                <p>Adresse: Kinshasa, Gombe</p>
+            </div>
+            <div class="footer-social">
+                <p>&copy; 2026 LITASARL. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="guide.js"></script>
+</body>
+</html>
